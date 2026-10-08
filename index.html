@@ -4,232 +4,561 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Chrisan Benson | Portfolio</title>
+    <meta
+        name="description"
+        content="Chrisan Benson — B.Tech Information Technology student portfolio."
+    >
+
+    <title>Chrisan Benson | IT Student & AI/ML Developer</title>
 
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Chrisan.</div>
+    <!-- ================= NAVIGATION ================= -->
 
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+    <header class="navbar">
+        <nav class="nav-container">
 
-
-    <!-- Hero Section -->
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <p class="intro">HELLO, I'M</p>
-
-            <h1>Chrisan Benson</h1>
-
-            <h2>
-                B.Tech Information Technology Student
-            </h2>
-
-            <p class="hero-description">
-                I build practical applications using Python,
-                Artificial Intelligence, Machine Learning and
-                Generative AI.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary">
-                    View My Projects
-                </a>
-
-                <a href="#contact" class="btn secondary">
-                    Contact Me
-                </a>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- About Section -->
-    <section id="about">
-
-        <h2>About Me</h2>
-
-        <p>
-            I'm a final-year B.Tech Information Technology student
-            interested in Artificial Intelligence, Machine Learning,
-            Generative AI and software development.
-        </p>
-
-        <p>
-            I enjoy building practical technology solutions and
-            continuously expanding my skills through projects,
-            coursework and hands-on development.
-        </p>
-
-    </section>
-
-
-    <!-- Skills Section -->
-    <section id="skills">
-
-        <h2>Technical Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill-card">
-                <h3>Programming</h3>
-                <p>Python · Java · C · SQL</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Web Development</h3>
-                <p>HTML · CSS · Django</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>AI & Machine Learning</h3>
-                <p>
-                    Machine Learning · Deep Learning · CNN ·
-                    Computer Vision · Generative AI
-                </p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Tools</h3>
-                <p>Git · GitHub · VS Code · Google Colab</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects Section -->
-    <section id="projects">
-
-        <h2>Featured Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-
-                <h3>Real-Time Arrhythmia Detection</h3>
-
-                <p>
-                    A CNN-based system for detecting cardiac
-                    arrhythmias from ECG signals.
-                </p>
-
-                <span>Python · CNN · Deep Learning</span>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <h3>Memora.AI</h3>
-
-                <p>
-                    A Django-based medication management platform
-                    designed to help older adults keep track of
-                    their medication intake.
-                </p>
-
-                <span>Python · Django · HTML · CSS · SQL</span>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <h3>Emotion-Based Adaptive Music Player</h3>
-
-                <p>
-                    An emotion detection system that recommends
-                    music based on the user's detected emotional
-                    state.
-                </p>
-
-                <span>Python · Machine Learning · CNN</span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Education Section -->
-    <section id="education">
-
-        <h2>Education</h2>
-
-        <div class="education-card">
-
-            <h3>B.Tech in Information Technology</h3>
-
-            <p>
-                Toc H Institute of Science and Technology
-            </p>
-
-            <p>
-                Ernakulam, Kerala
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-
-        <h2>Let's Connect</h2>
-
-        <p>
-            I'm open to opportunities, collaborations and
-            conversations about technology.
-        </p>
-
-        <div class="contact-links">
-
-            <a href="https://www.linkedin.com/in/chrisan-benson-4117783a0"
-               target="_blank">
-                LinkedIn
+            <a href="#home" class="logo">
+                Chrisan<span>.</span>
             </a>
 
-            <a href="https://github.com/chrisanbenson5002-coder"
-               target="_blank">
-                GitHub
-            </a>
+            <button class="menu-toggle" aria-label="Open navigation">
+                ☰
+            </button>
 
-            <a href="mailto:chrisanbenson5002@gmail.com">
-                Email
-            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
 
-        </div>
+        </nav>
+    </header>
 
-    </section>
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        B.TECH INFORMATION TECHNOLOGY
+                    </p>
+
+                    <h1>
+                        Hi, I'm
+                        <span>Chrisan Benson.</span>
+                    </h1>
+
+                    <h2>
+                        I build practical solutions with
+                        <strong>Python & AI.</strong>
+                    </h2>
+
+                    <p class="hero-text">
+                        Final-year Information Technology student interested
+                        in Artificial Intelligence, Machine Learning,
+                        Generative AI and software development.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#projects" class="button button-primary">
+                            View Projects
+                            <span>→</span>
+                        </a>
+
+                        <a href="mailto:chrisanbenson5002@gmail.com"
+                           class="button button-secondary">
+                            Get In Touch
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/chrisanbenson5002-coder"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/chrisan-benson-4117783a0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+
+                        <a href="mailto:chrisanbenson5002@gmail.com">
+                            Email
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-decoration">
+
+                    <div class="code-card">
+
+                        <div class="code-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <pre><code><span class="code-purple">class</span> <span class="code-blue">Developer</span>:
+    name = <span class="code-green">"Chrisan"</span>
+    field = <span class="code-green">"IT"</span>
+    focus = [
+        <span class="code-green">"AI/ML"</span>,
+        <span class="code-green">"GenAI"</span>,
+        <span class="code-green">"Python"</span>
+    ]
+
+    <span class="code-purple">def</span> <span class="code-blue">build</span>(self):
+        <span class="code-purple">return</span> <span class="code-green">"solutions"</span></code></pre>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-    <!-- Footer -->
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="section-heading">
+                <p class="section-number">01</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-main">
+
+                    <p class="large-text">
+                        I'm a final-year B.Tech Information Technology
+                        student with a strong interest in building
+                        practical software and AI-driven applications.
+                    </p>
+
+                    <p>
+                        My primary programming language is Python, and I've
+                        worked with Django, machine learning, CNN-based
+                        systems and web technologies. I'm also currently
+                        expanding my knowledge of Generative AI and
+                        Data Structures & Algorithms.
+                    </p>
+
+                    <p>
+                        I enjoy learning by building projects and applying
+                        technology to real-world problems.
+                    </p>
+
+                </div>
+
+                <div class="about-facts">
+
+                    <div class="fact">
+                        <span class="fact-number">01</span>
+                        <div>
+                            <h3>AI & ML</h3>
+                            <p>Machine Learning, CNN & Computer Vision</p>
+                        </div>
+                    </div>
+
+                    <div class="fact">
+                        <span class="fact-number">02</span>
+                        <div>
+                            <h3>Development</h3>
+                            <p>Python, Django & Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="fact">
+                        <span class="fact-number">03</span>
+                        <div>
+                            <h3>Currently Learning</h3>
+                            <p>Generative AI & Data Structures</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section section-alt">
+
+            <div class="section-heading">
+                <p class="section-number">02</p>
+                <h2>Technical Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">01</div>
+
+                    <h3>Programming</h3>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C</span>
+                        <span>SQL</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">02</div>
+
+                    <h3>Web Development</h3>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Django</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">03</div>
+
+                    <h3>AI & Machine Learning</h3>
+
+                    <div class="tags">
+                        <span>Machine Learning</span>
+                        <span>Deep Learning</span>
+                        <span>CNN</span>
+                        <span>Computer Vision</span>
+                        <span>Generative AI</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">04</div>
+
+                    <h3>Tools & Platforms</h3>
+
+                    <div class="tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>Google Colab</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+                <p class="section-number">03</p>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+
+                <article class="project-card featured-project">
+
+                    <div class="project-header">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <span class="project-status">
+                            Final Year Project
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Real-Time Arrhythmia Detection
+                    </h3>
+
+                    <p>
+                        A deep learning system focused on detecting
+                        cardiac arrhythmias from ECG signals using a
+                        Convolutional Neural Network.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>CNN</span>
+                        <span>Deep Learning</span>
+                        <span>ECG</span>
+                    </div>
+
+                    <!-- Add your repository URL later -->
+                    <a href="#" class="project-link">
+                        View Project <span>↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Project 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-header">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <span class="project-status">
+                            Django
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Memora.AI
+                    </h3>
+
+                    <p>
+                        A medication management platform designed to
+                        help older adults keep track of their
+                        medication intake.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project <span>↗</span>
+                    </a>
+
+                </article>
+
+
+                <!-- Project 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-header">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <span class="project-status">
+                            AI/ML
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Emotion-Based Adaptive Music Player
+                    </h3>
+
+                    <p>
+                        An emotion-aware music recommendation system
+                        that detects emotional state and recommends
+                        music accordingly.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>CNN</span>
+                        <span>Computer Vision</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project <span>↗</span>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section section-alt">
+
+            <div class="section-heading">
+                <p class="section-number">04</p>
+                <h2>Education</h2>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            B.Tech
+                        </span>
+
+                        <h3>
+                            Bachelor of Technology in Information Technology
+                        </h3>
+
+                        <h4>
+                            Toc H Institute of Science and Technology
+                        </h4>
+
+                        <p>
+                            Ernakulam, Kerala
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="contact-container">
+
+                <p class="section-number">05</p>
+
+                <h2>
+                    Let's build something
+                    <span>useful.</span>
+                </h2>
+
+                <p>
+                    I'm interested in software development,
+                    AI/ML opportunities and projects where I can
+                    continue learning and contribute meaningfully.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="mailto:chrisanbenson5002@gmail.com"
+                        class="button button-primary"
+                    >
+                        Email Me
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/chrisan-benson-4187783a0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-secondary"
+                    >
+                        LinkedIn
+                    </a>
+
+                    <a
+                        href="https://github.com/chrisanbenson5002-coder"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-secondary"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
 
-        <p>
-            © 2026 Chrisan Benson. Built with HTML & CSS.
-        </p>
+        <div class="footer-container">
+
+            <p>
+                © 2026 Chrisan Benson
+            </p>
+
+            <p>
+                Built with HTML & CSS
+            </p>
+
+        </div>
 
     </footer>
+
+
+    <!-- Simple mobile navigation -->
+
+    <script>
+
+        const menuButton = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuButton.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("active");
+            });
+        });
+
+    </script>
 
 </body>
 </html>
